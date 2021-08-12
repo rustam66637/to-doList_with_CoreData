@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		30728A7626C48E94001B87BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30728A7526C48E94001B87BC /* AppDelegate.swift */; };
 		30728A7826C48E94001B87BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30728A7726C48E94001B87BC /* SceneDelegate.swift */; };
-		30728A7A26C48E94001B87BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30728A7926C48E94001B87BC /* ViewController.swift */; };
 		30728A7D26C48E94001B87BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30728A7B26C48E94001B87BC /* Main.storyboard */; };
 		30728A8026C48E94001B87BC /* To_DoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30728A7E26C48E94001B87BC /* To_DoList.xcdatamodeld */; };
 		30728A8226C48E95001B87BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30728A8126C48E95001B87BC /* Assets.xcassets */; };
 		30728A8526C48E95001B87BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30728A8326C48E95001B87BC /* LaunchScreen.storyboard */; };
+		30728A8D26C48F8B001B87BC /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30728A8C26C48F8B001B87BC /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30728A7226C48E94001B87BC /* To-DoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "To-DoList.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30728A7526C48E94001B87BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30728A7726C48E94001B87BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30728A7926C48E94001B87BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30728A7C26C48E94001B87BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30728A7F26C48E94001B87BC /* To_DoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = To_DoList.xcdatamodel; sourceTree = "<group>"; };
 		30728A8126C48E95001B87BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30728A8426C48E95001B87BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30728A8626C48E95001B87BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30728A8C26C48F8B001B87BC /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				30728A7526C48E94001B87BC /* AppDelegate.swift */,
 				30728A7726C48E94001B87BC /* SceneDelegate.swift */,
-				30728A7926C48E94001B87BC /* ViewController.swift */,
+				30728A8C26C48F8B001B87BC /* ToDoTableViewController.swift */,
 				30728A7B26C48E94001B87BC /* Main.storyboard */,
 				30728A8126C48E95001B87BC /* Assets.xcassets */,
 				30728A8326C48E95001B87BC /* LaunchScreen.storyboard */,
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30728A7A26C48E94001B87BC /* ViewController.swift in Sources */,
 				30728A7626C48E94001B87BC /* AppDelegate.swift in Sources */,
+				30728A8D26C48F8B001B87BC /* ToDoTableViewController.swift in Sources */,
 				30728A7826C48E94001B87BC /* SceneDelegate.swift in Sources */,
 				30728A8026C48E94001B87BC /* To_DoList.xcdatamodeld in Sources */,
 			);
