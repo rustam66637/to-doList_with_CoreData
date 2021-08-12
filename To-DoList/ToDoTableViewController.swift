@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ToDoTableViewController: UITableViewController {
 
@@ -43,7 +44,20 @@ class ToDoTableViewController: UITableViewController {
     }
     
     func saveTask(taskToDo: String) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
         
+        let entity = NSEntityDescription.entity(forEntityName: "Task", in: context)
+        let taskObject = NSManagedObject(entity: entity!, insertInto: context) as! Task
+        taskObject.taskToDo = taskToDo
+        
+        do {
+            try context.save()
+            toDoItems.append(taskObject)
+            print("Saved!")
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
 
